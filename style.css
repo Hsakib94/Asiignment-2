@@ -33,6 +33,11 @@
     padding: 0px 10%;
 }
 
+@keyframes esliding {
+    from {background-color: #f22424;}
+    to {background-color: rgb(37, 42, 103);}
+  }
+
 .top-header button{
     background-color:#f22424 ;
     color: aliceblue;
@@ -41,6 +46,7 @@
     padding: 10px;
     margin-left: 10%;
     margin-top: 20px;
+    animation: esliding 1s ease-in-out 0.5s infinite alternate ;
 }
 
 /* top banner end */
@@ -131,6 +137,26 @@
     height:20px;
     padding: 10px;
     margin-top: 5px;
+}
+
+
+.view-btn{
+    text-align: center;
+}
+
+.view-btn button{ 
+   
+    background-color: #f22424;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 2em;
+    border: none;
+    color: antiquewhite;
+    width: 300px;
+    margin-top: 50px;
+    visibility: hidden;
+    
+
 }
 
 /* blog post  end*/
@@ -235,7 +261,18 @@
     color: rgb(249, 249, 248);
 
 }
-    
+
+.fott-main-container li {
+    padding: 2% 2.5%;
+
+}
+
+.extra-blog {
+    display: none;
+}
+.view-btn button{ 
+    visibility: visible;
+}
 
 }   
 
